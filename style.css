@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+form input:focus {
+    border: 2px solid blue;
+}
+
+input[type="checkbox"]:checked {
+    color: green;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li:nth-child(odd) img {
+    background-color: lightgrey;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+p:last-child {
+    font-style: italic;
+}
+
+p:not(.important) {
+    color: red;
+}
+
+button.saiba-mais:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
